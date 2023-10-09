@@ -32,9 +32,9 @@ make
 >  Change (x) with any available map or add your own :) .
 
 ## ⚙️ Makefile Available Targets:  
-`make` or `make all` - compiles cub3D  
-`make clean` - wipes all object files  
-`make fclean` - deletes cub3D and all object files  
+`make` or `make all` - compiles _cub3D_ and _mlx_
+`make clean` - Deletes all the resulting object files  
+`make fclean` - Deletes _cub3D_ and all the resulting object files  
 `make re` - fclean + all  
 `make run` - fclean + all + execute   
 `make noleaks` - fclean + all + execute --with valgrind
