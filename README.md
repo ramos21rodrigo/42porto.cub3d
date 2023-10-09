@@ -27,9 +27,19 @@ make
 ```
 3. Now you can play the game !
 ```
-./so_long scenes/map{x}.cub
+./cub3D scenes/map{x}.cub
 ```
 >  Change (x) with any available map or add your own :) .
+
+## ⚙️ Makefile Available Targets:  
+`make` or `make all` - compiles cub3D  
+`make clean` - wipes all object files  
+`make fclean` - deletes cub3D and all object files  
+`make re` - fclean + all  
+`make run` - fclean + all + execute   
+`make noleaks` - fclean + all + execute --with valgrind
+
+> This project was developed for Linux. Although we've added conditional compilation and mlx for macOS (which do not have some functions that Linux has), it was for development and test purposes.  
 ___
 ###### At  [42School](https://en.wikipedia.org/wiki/42_(school)), every project has specific rules or restrictions, and some of them must be written in accordance with the [Norm](https://github.com/42School/norminette). As a result, parts of the code could be more readable or explicit, and some used technologies could be different.
 Made with tears 🥲
